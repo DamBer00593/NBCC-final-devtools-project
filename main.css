@@ -34,7 +34,7 @@ header{
     background-color: lightgray;
 }
 footer{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,4 +79,37 @@ footer p:last-child{
 #resultBox{
     grid-column: span 2;
     text-align: center;
+}
+.imageContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imageContent img:nth-child(1){
+    grid-row: span 2;
+}
+
+.gamesContent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.gameImage{
+    grid-row: 1;
+    
+}
+.gameImage img{
+    width: 100%;
+}
+.gameName{
+    grid-row: 2;
+    text-align: center;
+}
+.turtleContent{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.turtleContent img{
+    margin-left: auto;
+    margin-right: auto;
 }
