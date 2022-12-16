@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: gray;
+    
+}
+#logo{
+    height: 67px;
+    margin-left: auto;
+}
+#home{
+    height: 67px;
+    
+}
+.navBar{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+}
+.navBar div{
+    height: 20px;
+    padding: 10px;
+    background-color: darkgray;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.navBar div:hover{
+    background-color: lightgray;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: gray;
+}
+footer p:last-child{
+    text-align: right;
+}
