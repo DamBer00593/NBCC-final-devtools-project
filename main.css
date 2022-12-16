@@ -44,6 +44,7 @@ footer{
 footer p:last-child{
     text-align: right;
 }
+
 .content{
     background-color: antiquewhite;
     width: 500px;
@@ -66,4 +67,16 @@ footer p:last-child{
 }
 .content #submit{
     grid-column: span 2;
+}
+
+.indexContent{
+    background-color: antiquewhite;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#resultBox{
+    grid-column: span 2;
+    text-align: center;
 }
