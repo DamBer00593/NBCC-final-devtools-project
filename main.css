@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: gray;
+    
+}
+#logo{
+    height: 67px;
+    margin-left: auto;
+}
+#home{
+    height: 67px;
+    
+}
+.navBar{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    text-align: center;
+}
+.navBar div{
+    height: 20px;
+    padding: 10px;
+    background-color: darkgray;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.navBar div:hover{
+    background-color: lightgray;
+}
+footer{
+    position: sticky;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: gray;
+}
+footer p:last-child{
+    text-align: right;
+}
+
+.content{
+    background-color: antiquewhite;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content h2{
+    text-align: center;
+    grid-column: span 2;
+}
+.content p{
+    text-align: right;
+}
+.content input{
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content #submit{
+    grid-column: span 2;
+}
+
+.indexContent{
+    background-color: antiquewhite;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#resultBox{
+    grid-column: span 2;
+    text-align: center;
+}
+.imageContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.imageContent img:nth-child(1){
+    grid-row: span 2;
+}
+
+.gamesContent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.gameImage{
+    grid-row: 1;
+    
+}
+.gameImage img{
+    width: 100%;
+}
+.gameName{
+    grid-row: 2;
+    text-align: center;
+}
+.turtleContent{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.turtleContent img{
+    margin-left: auto;
+    margin-right: auto;
+}
