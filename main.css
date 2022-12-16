@@ -44,3 +44,26 @@ footer{
 footer p:last-child{
     text-align: right;
 }
+.content{
+    background-color: antiquewhite;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content h2{
+    text-align: center;
+    grid-column: span 2;
+}
+.content p{
+    text-align: right;
+}
+.content input{
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content #submit{
+    grid-column: span 2;
+}
